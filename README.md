@@ -181,6 +181,12 @@ docker system prune -a
 
 <img width="555" height="721" alt="image" src="https://github.com/user-attachments/assets/f8529efe-3bc2-4aa9-8726-9bb5e50fcbb0" />
 
+<img width="1583" height="476" alt="image" src="https://github.com/user-attachments/assets/0ac614e0-89a1-4513-a329-e294987797fc" />
+
+<img width="1590" height="446" alt="image" src="https://github.com/user-attachments/assets/67f41ad7-98db-4257-92fa-61ecff01b7eb" />
+
+
+
 
 ## 📚 Docker Learning Resources
 
