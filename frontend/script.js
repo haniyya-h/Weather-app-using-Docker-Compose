@@ -45,10 +45,24 @@ async function getWeather() {
 
 // Function to display weather data
 function displayWeather(data) {
+    let additionalInfo = '';
+    
+    // Add additional weather info if available (from real API)
+    if (data.humidity || data.windSpeed || data.description) {
+        additionalInfo = `
+            <div class="additional-info" style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                ${data.description ? `<div>${data.description}</div>` : ''}
+                ${data.humidity ? `<div>Humidity: ${data.humidity}</div>` : ''}
+                ${data.windSpeed ? `<div>Wind: ${data.windSpeed}</div>` : ''}
+            </div>
+        `;
+    }
+    
     weatherContent.innerHTML = `
         <div class="city-name">${data.city}</div>
         <div class="temperature">${data.temperature}</div>
         <div class="condition">${data.condition}</div>
+        ${additionalInfo}
     `;
     
     // Show the weather result with animation

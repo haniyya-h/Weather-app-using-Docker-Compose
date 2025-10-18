@@ -65,7 +65,7 @@ weather-app/
   - GET `/weather?city=CityName` - Returns weather data
   - GET `/health` - Health check endpoint
   - CORS enabled for frontend communication
-  - Mock weather data (no API key required)
+  - Real-time weather data from OpenWeatherMap API with fallback to mock data
 
 ### Frontend Service (`frontend`)
 - **Technology:** HTML + JavaScript + Nginx
@@ -171,7 +171,7 @@ docker system prune -a
 - **Responsive Design:** Works on desktop and mobile
 - **Error Handling:** Graceful error messages
 - **Loading States:** Visual feedback during API calls
-- **Mock Data:** No external API keys required
+- **Real-time Data:** OpenWeatherMap API integration with smart fallback
 - **Modern UI:** Beautiful gradient design with animations
 - **Service Communication:** Frontend-backend integration
 
