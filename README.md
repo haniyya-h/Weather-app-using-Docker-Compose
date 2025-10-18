@@ -177,31 +177,10 @@ docker system prune -a
 
 ## 📸 Screenshots
 
-### Docker Compose Running
-```bash
-docker compose up --build
-```
+### Application Running
 
-### Frontend Interface
-- Access http://localhost:3000
-- Enter city name (e.g., "Islamabad", "Karachi", "Lahore")
-- View weather data with beautiful animations
+<img width="555" height="721" alt="image" src="https://github.com/user-attachments/assets/f8529efe-3bc2-4aa9-8726-9bb5e50fcbb0" />
 
-### Backend API
-- Access http://localhost:5000/weather?city=Islamabad
-- Returns JSON weather data
-
-## 🚀 Next Steps
-
-Try these modifications to learn more:
-
-1. **Add a database:** Include a PostgreSQL container
-2. **Add Redis:** Cache weather data
-3. **Environment variables:** Use `.env` files for configuration
-4. **Volumes:** Persist data between container restarts
-5. **Multiple environments:** Development vs production configs
-6. **Health checks:** Add container health monitoring
-7. **Logging:** Implement structured logging
 
 ## 📚 Docker Learning Resources
 
